@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64DEA686-05DC-4545-B910-EF4F5E50265E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentations", "presentations", "{FB662982-413E-4595-9784-B10BAD01E94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiCloudDrive.CoreApi", "src\presentations\FlexiCloudDrive.CoreApi\FlexiCloudDrive.CoreApi.csproj", "{9EAA733F-D4B5-4426-8879-3825D602A5F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{6DFD79E1-500E-47BE-BE19-DB18ED6C1905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiCloudDrive.Common", "src\libraries\FlexiCloudDrive.Common\FlexiCloudDrive.Common.csproj", "{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiCloudDrive.Entities", "src\libraries\FlexiCloudDrive.Entities\FlexiCloudDrive.Entities.csproj", "{DAC15D0A-2B20-416C-8104-FC5EEC503D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiCloudDrive.Data", "src\libraries\FlexiCloudDrive.Data\FlexiCloudDrive.Data.csproj", "{E679E6CA-F967-4FF7-ADA4-A37E68868589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiCloudDrive.Services", "src\libraries\FlexiCloudDrive.Services\FlexiCloudDrive.Services.csproj", "{BC4A5279-F9AF-44EA-9B29-FA4F88C60365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAA733F-D4B5-4426-8879-3825D602A5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAA733F-D4B5-4426-8879-3825D602A5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAA733F-D4B5-4426-8879-3825D602A5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAA733F-D4B5-4426-8879-3825D602A5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC15D0A-2B20-416C-8104-FC5EEC503D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC15D0A-2B20-416C-8104-FC5EEC503D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC15D0A-2B20-416C-8104-FC5EEC503D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC15D0A-2B20-416C-8104-FC5EEC503D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E679E6CA-F967-4FF7-ADA4-A37E68868589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E679E6CA-F967-4FF7-ADA4-A37E68868589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E679E6CA-F967-4FF7-ADA4-A37E68868589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E679E6CA-F967-4FF7-ADA4-A37E68868589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4A5279-F9AF-44EA-9B29-FA4F88C60365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4A5279-F9AF-44EA-9B29-FA4F88C60365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4A5279-F9AF-44EA-9B29-FA4F88C60365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4A5279-F9AF-44EA-9B29-FA4F88C60365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB662982-413E-4595-9784-B10BAD01E94A} = {64DEA686-05DC-4545-B910-EF4F5E50265E}
+		{9EAA733F-D4B5-4426-8879-3825D602A5F7} = {FB662982-413E-4595-9784-B10BAD01E94A}
+		{6DFD79E1-500E-47BE-BE19-DB18ED6C1905} = {64DEA686-05DC-4545-B910-EF4F5E50265E}
+		{8088CCC1-6732-40A5-BF28-C2FE6A14CBD9} = {6DFD79E1-500E-47BE-BE19-DB18ED6C1905}
+		{DAC15D0A-2B20-416C-8104-FC5EEC503D96} = {6DFD79E1-500E-47BE-BE19-DB18ED6C1905}
+		{E679E6CA-F967-4FF7-ADA4-A37E68868589} = {6DFD79E1-500E-47BE-BE19-DB18ED6C1905}
+		{BC4A5279-F9AF-44EA-9B29-FA4F88C60365} = {6DFD79E1-500E-47BE-BE19-DB18ED6C1905}
+	EndGlobalSection
+EndGlobal

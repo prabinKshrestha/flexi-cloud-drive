@@ -1,0 +1,6 @@
+@FlexiCloudDrive.CoreApi_HostAddress = http://localhost:5259
+
+GET {{FlexiCloudDrive.CoreApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
